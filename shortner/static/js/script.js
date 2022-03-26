@@ -1,3 +1,5 @@
+console.log("Testando...");
+
 $(document).on('submit','#post-form',function(e){
   e.preventDefault();
 
