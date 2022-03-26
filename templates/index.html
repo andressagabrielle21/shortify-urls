@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="{% static '/css/style.css' %}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>URL Shortner</title>
-
 </head>
 
 <body>
@@ -34,22 +33,6 @@
     </div>
 </body>
 
-<script type="text/javascript">
-    $(document).on('submit', '#post-form', function (e) {
-        e.preventDefault();
-
-        $.ajax({
-            type: 'POST',
-            url: '/create',
-            data: {
-                link: $('#link').val(),
-                csrfmiddlewaretoken: $('input[name=csrfmiddlewaretoken]').val(),
-            },
-            success: function (data) {
-                $('h2').html("www.surls.ga/" + data)
-            }
-        });
-    });
-</script>
+<script src="{% static '/js/script.js' %}"></script>
 
 </html>
