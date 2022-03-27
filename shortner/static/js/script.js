@@ -11,7 +11,7 @@ $(document).on('submit','#post-form',function(e){
       csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
     },
     success: function(data){
-      $('h3').html("localhost:8000/"+data)
+      $('h3').html("shurls-ag.herokuapp.com/"+data)
     }
   });
 });
