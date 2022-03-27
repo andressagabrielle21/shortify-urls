@@ -1,4 +1,4 @@
-# URL Shortify
+#🔗 URL Shortify 🔗
 
 ## This project was developed with Python, Django Framework, JavaScript, HTML and CSS (SCSS/SASS).
 
@@ -6,3 +6,5 @@
 
 <h4> Screenshots: </h4>
 ![Captura de tela 2022-03-27 124537](https://user-images.githubusercontent.com/25774210/160290089-271a8b82-a156-4917-801f-f078a74b57e4.png)
+
+![jdfs](https://user-images.githubusercontent.com/25774210/160290175-52b7646e-4f32-40a3-a741-63e1521487fa.png)
