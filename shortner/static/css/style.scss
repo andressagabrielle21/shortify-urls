@@ -26,13 +26,31 @@ body {
     justify-content: center;
     align-items: center;
     .form {
+        display: flex;
         .text-bar{
-            width: 400px;
+            width: 350px;
             height: 40px;
-            border-radius: 15px;
+            border-radius: 10px;
             border: solid #000 1px;
             padding: 10px;
         }
+        button {
+            height: 40px;
+            padding: 10px;
+            background-color: rgba(0,212,255,1);
+            border-radius: 10px;
+            border: none;
+            &:hover {
+                transition: .5s;
+                background-color: rgba(0, 213, 255, 0.562);
+                box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+            }
+        }
+    }
+    .uuid {
+        margin-top: 20px;
     }
 }
+
+
 

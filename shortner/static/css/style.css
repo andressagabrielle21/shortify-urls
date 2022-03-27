@@ -39,11 +39,37 @@ body {
           align-items: center;
 }
 
+.box .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .box .form .text-bar {
-  width: 400px;
+  width: 350px;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: solid #000 1px;
   padding: 10px;
+}
+
+.box .form button {
+  height: 40px;
+  padding: 10px;
+  background-color: #00d4ff;
+  border-radius: 10px;
+  border: none;
+}
+
+.box .form button:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: rgba(0, 213, 255, 0.562);
+  -webkit-box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+          box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+}
+
+.box .uuid {
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

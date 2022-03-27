@@ -16,12 +16,13 @@
 <body>
     <div class="box">
         <h1>URL Shortner</h1>
+        <br>
 
         <div class="form">
             <form id="post-form">
                 {% csrf_token %}
                 <input type="text" id="link" name="link" class="text-bar" placeholder="Enter your URL here">
-                <br>
+
 
                 <button type="submit" id="shorten" value="Shortner"> Shortify </button>
             </form>
