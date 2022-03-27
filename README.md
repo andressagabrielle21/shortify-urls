@@ -5,6 +5,9 @@
 <h3 align="center"> Application deployed o Heroku: <a href="https://shurls-ag.herokuapp.com/">🔗 URL Shortner</a></h3>
 
 <h4> Screenshots: </h4>
-![Captura de tela 2022-03-27 124537](https://user-images.githubusercontent.com/25774210/160290089-271a8b82-a156-4917-801f-f078a74b57e4.png)
+
+![xczsdfg](https://user-images.githubusercontent.com/25774210/160290228-dc6ba95e-e9c4-455e-bb76-dd986ebe268f.png)
 
 ![jdfs](https://user-images.githubusercontent.com/25774210/160290175-52b7646e-4f32-40a3-a741-63e1521487fa.png)
+
+
